@@ -1,0 +1,7 @@
+/* Keep the glow hidden from first paint, including after in-page navigation. */
+#cinematics,
+#shorts-cinematic-container,
+#player-cinematics-container,
+:is(ytd-watch-flexy, ytd-watch-grid, ytd-shorts) cinematic-container-view-model {
+  display: none !important;
+}

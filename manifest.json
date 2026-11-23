@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Ambient Mode Off",
+  "version": "1.0.0",
+  "description": "Turns off YouTube's ambient lighting as soon as the page loads.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["ambient-off.css"],
+      "js": ["ambient-off.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

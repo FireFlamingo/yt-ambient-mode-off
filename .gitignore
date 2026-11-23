@@ -1,0 +1,12 @@
+.env
+.env.*
+*.crx
+*.pem
+*.key
+*.zip
+node_modules/
+dist/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
